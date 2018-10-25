@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index_body {
+    background: rgb(83, 184, 133);
+}
+
+.form {
+    text-align: center;
+    background: rgb(106, 241, 174);
+    padding: 20px;
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 4px;
+}
+
+.gen_input {
+    width: 50%;
+    height: 35px;
+}
+
+.admin_pw {
+    width: 40%;
+    height: 25px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #111;
+}
+
+input[type=text] {
+    border: 3px solid #555;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    border: 3px solid #555;
+    border-radius: 5px;
+}
+
+input[placeholder] {
+    font-weight: bold;
+    color: #111;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+.login {
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login:hover {
+    background-color: #111;
+}
+
+h1 {
+    color: #333;
+}
+
+.new {
+    background-color: rgb(143, 23, 23);
+    border: none;
+    border-radius: 4px;
+    color: #f1f1f1;
+    font-size: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 70%;
+    margin-bottom: 0px;
+}
+
+.new:hover {
+    background-color: rgb(66, 8, 8);
+}
+
+.form_admin {
+    text-align: center;
+    background: rgb(106, 241, 174);
+    padding: 20px;
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 4px;
+}
+
+.ok {
+    background-color: rgb(143, 23, 23);
+    border: none;
+    border-radius: 4px;
+    color: #f1f1f1;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ok:hover {
+    background-color: rgb(66, 8, 8);
+}
