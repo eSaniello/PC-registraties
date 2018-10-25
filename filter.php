@@ -1,8 +1,6 @@
 <?php
     ob_start();
 
-<?php
-
 if(isset($_POST["btn_filter"]))
 {
 
